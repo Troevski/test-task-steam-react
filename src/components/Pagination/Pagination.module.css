@@ -1,0 +1,34 @@
+.container_pages {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.ul_pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.li_pages {
+  margin-right: 5px;
+  padding: 9px 13px;
+  background-color: gray;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.li_pages_active {
+  margin-right: 5px;
+  padding: 9px 13px;
+  background-color: rgb(59, 68, 73);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.li_pages:hover {
+  background-color: rgb(165, 165, 165);
+  transition: all 0.5s ease;
+}

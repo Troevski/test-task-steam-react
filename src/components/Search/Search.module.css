@@ -1,0 +1,34 @@
+.cont_search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+}
+
+.searchInputContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  height: 30px;
+  background-color: #ffffff;
+  border: 1px solid #c1c1c1;
+  border-radius: 20px;
+  padding: 0 10px;
+}
+
+.searchInput {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  color: #333333;
+  outline: none;
+}
+
+.bx-search-alt {
+  font-size: 24px;
+  color: #999999;
+  margin-left: 10px;
+}

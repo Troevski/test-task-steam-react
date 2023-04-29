@@ -1,0 +1,31 @@
+.header_wrapper {
+  width: 100%;
+  margin-top: 10px;
+  background-color: transparent;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.user_int {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+}
+
+.search_cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60px;
+  background-color: gray;
+  padding: 0 8px;
+  border-radius: 12px;
+  height: 35px;
+}
+.like_list {
+  text-decoration: none;
+  color: black;
+}

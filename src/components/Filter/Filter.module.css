@@ -1,0 +1,52 @@
+.filter_ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+  border-radius: 10px;
+  width: 140px;
+  padding: 0 8px;
+  border-radius: 12px;
+  height: 35px;
+  position: relative;
+  margin-right: 10px;
+}
+.menu_filter_show {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 0;
+  margin: 5px 0px 0px 0px;
+
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: gray;
+  transform: scale(1);
+  transition: 0.4s ease-in-out;
+  width: 100%;
+}
+.menu_filter {
+  transform: scale(0);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 0;
+  margin: 5px 0px 0px 0px;
+
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: gray;
+  width: 100%;
+}
+.li_menu_filter {
+  list-style: none;
+  cursor: pointer;
+  padding: 5px;
+}
+.li_menu_filter:hover {
+  background-color: rgb(165, 162, 162);
+}

@@ -1,0 +1,36 @@
+.card_container {
+  background-color: rgb(5, 61, 61);
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  overflow: hidden;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.card_text {
+  color: white;
+  margin-left: 5px;
+}
+.card_title {
+  font-weight: 800;
+  font-size: 20px;
+  margin: 0;
+}
+.card_released {
+  font-size: 16px;
+  margin: 5px 0px 5px 0px;
+}
+.block_price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+}
+.card_price_ {
+  font-size: 16px;
+  margin-top: 0px;
+}
